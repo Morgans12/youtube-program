@@ -1,0 +1,121 @@
+.developer-info li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 15px;
+    margin-bottom: 10px;
+
+    background: #111827;
+    color: white;
+
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.developer-info li::before {
+    content: "›";
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.developer-info li:hover {
+    background-color: aqua;
+    transform: translateX(6px);
+}
+
+.observation {
+    background: red;
+}
+
+.section {
+    display: flex;
+    background: blue;
+    width: fit-content;   
+}
+
+.section1 {
+    display:flex;
+    gap: 10px;
+    background: pink;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.button1 {
+    padding: 5px 15px;
+    background: greenyellow;
+    border: none;
+}
+
+
+.button2 {
+    padding: 5px 15px;
+    background: palevioletred;
+    border: none;
+}
+
+
+
+.button3 {
+    padding: 5px 15px;
+    background: lightskyblue;
+    border: none;
+}
+
+
+.button4 {
+    padding: 5px 15px;
+    background: wheat;
+    border: none;
+}
+
+.section2 {
+    border: 1px solid black;
+    padding: 6px;
+    width: fit-content;
+    margin: 0 auto;
+    background: lightgray; 
+}
+
+.button5 {
+    padding: 5px 50px;
+    background: greenyellow;
+    border: none;
+    margin: 5px
+}
+
+
+.button6 {
+    padding: 5px 50px;
+    background: palevioletred;
+    border: none;
+    margin: 5px;
+}
+
+
+
+.button7 {
+    padding: 5px 50px;
+    background: lightskyblue;
+    border: none;
+    margin: 5px;
+}
+
+
+.button8 {
+    padding: 5px 50px;
+    background: wheat;
+    border: none;
+    margin: 5px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    background: lightgray; 
+}
